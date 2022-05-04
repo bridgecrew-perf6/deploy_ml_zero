@@ -1,9 +1,12 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### Sohrab Redjai Sani
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+
+The score was not that great for the first submission, which is acceptable for a baseline value. This score was achieved without performing any Exploratory Data Analysis (EDA). 
+
+Also, I've realized that Kaggle does not accept a negative value for the prediction in the submission .csv file. So all of the prediction with the negative score was replaced with zero. 
 
 ### What was the top ranked model that performed?
 TODO: Add your explanation
